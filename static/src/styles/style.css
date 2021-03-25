@@ -1,0 +1,269 @@
+body, html {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .logo {
+    max-width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  
+  .logo img {
+    width: 100%;
+  }
+  
+  .breadcrumb {
+    margin: 0;
+    padding: 8px 10px;
+    background: white;
+  }
+  
+  .breadcrumb li {
+    font-size: 14px;
+  }
+  
+  .breadcrumb li i {
+    font-size: 10px;
+    margin: 0 5px;
+  }
+  
+  .breadcrumb li a {
+    color: #212529;
+  }
+  
+  .log-content {
+    max-width: 640px;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .log-content p a {
+    margin: 0 0 0 5px;
+  }
+  
+  .log-in {
+    padding: 30px 0 30px;
+  }
+  
+  .log-in .btn {
+    margin: 0 auto;
+  }
+  
+  .log-in input {
+    height: 45px;
+    margin: 0 0 35px;
+    padding: 10px 20px;
+  }
+  
+  .log-in .btn {
+    width: 150px;
+    height: 45px;
+  }
+  
+  header {
+    background: #eee;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  header.sticky + .content {
+  
+  }
+  
+  header .search-form {
+    padding: 25px 15px;
+    position: relative;
+  }
+  
+  header .search-form input {
+    padding: 0 40px 0 40px;
+  }
+  
+  .voice-btn, .search-btn, .slide-toggle {
+    background: transparent;
+    border: none;
+    color: gray;
+  }
+  
+  header .search-form .voice-btn {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  header .search-form .search-btn {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  header .search-form .voice-btn i, header .search-form .search-btn i {
+    color: grey;
+  }
+  
+  .content > h2 {
+    font-size: 16px;
+    padding: 10px 10px;
+    background-image: linear-gradient(#e5e5e5, #dbdbdb);
+    margin-bottom: 0;
+  }
+  
+  .panel {
+    min-height: 60px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eae7e7;
+    font-size: 20px;
+    padding: 8px 13px;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .panel h3 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .panel h3.student {
+    font-weight: bold;
+  }
+  
+  .panel p {
+    font-size: 13px;
+  }
+  
+  .student-list {
+    position: relative;
+  }
+  
+  .student-list .scrollbar {
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    right: 1%;
+    top: 16%;
+    bottom: 0;
+  }
+  
+  .student-list .scrollbar a {
+    display: block;
+  }
+  
+  .first-letter-name {
+    padding: 15px 20px 15px 43px;
+    font-size: 22px;
+  }
+  
+  .student {
+    padding: 15px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eae7e7;
+    font-size: 24px;
+  }
+  
+  .student .photo {
+    float: left;
+    background: black;
+    width: 70px;
+    height: 70px;
+    margin: 0 15px 0 0;
+  
+  }
+  
+  h3 {
+    background: #f9f9f9;
+    font-size: 22px;
+    padding: 15px;
+  }
+  
+  .challenges-content p {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+  }
+  
+  .challenges-content .last-paragraph {
+    padding-top: 15vw;
+  }
+  
+  /*---*/
+  
+  form > div button[type='submit']:before {
+    background: transparent;
+    border: none;
+    color: transparent;
+    border: none;
+    background-image: none;
+  }
+  
+  form > div > span {
+    margin: 0;
+    background: #eee;
+    padding: 25px 15px;
+    position: relative;
+  }
+  
+  .fix_margin {
+    margin: 0px;
+  }
+  
+  form > div > div > * {
+    padding: 0;
+    border: none;
+  }
+  
+  form > div button {
+    margin: 0px;
+  }
+  
+  form .search-btn {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  form .voice-btn {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  /*---*/
+  button:focus {
+    outline: none;
+  }
+  
+  ol.breadcrumb > li {
+    margin: 0px;
+  }
+  
+  div.content.challenges-content h3 {
+    background: #f9f9f9;
+    font-size: 22px;
+    padding: 15px;
+  }
+  
+  span.additional_filter {
+    padding-top: 0px;
+    margin-top: -15px;
+  }
+  
+  /*.btn-dob, .btn-dob:hover, .btn-dob:focus, .btn-dob:active, .btn-dob.active, .btn-dob:active:focus {*/
+    /*margin: 0;*/
+    /*color: whitesmoke;*/
+  /*}*/
+  

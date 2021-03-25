@@ -1,0 +1,401 @@
+.suggestions-input-container {
+    padding: 8px 8px;
+    background: #eee;
+  }
+  
+  a {
+    color: black;
+    &:hover {
+      text-decoration: none;
+  
+    }
+  }
+  
+  .suggestions-input-cover {
+    position: relative;
+    margin-top: 8px;
+  
+    input, select {
+      width: 100%;
+      padding: 0 40px;
+      height: 38px;
+      height: calc(2.25rem + 2px);
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+    button {
+      position: absolute;
+      height: 38px;
+      left: 0;
+      cursor: pointer;
+      padding: 8px 14px;
+    }
+    .voice-btn {
+      left: auto;
+      right: 0;
+      cursor: not-allowed;
+    }
+  }
+  
+  .letter-picker {
+    position: fixed;
+    height: calc(100vh - 138px);
+    padding: 0;
+    right: 0px;
+    bottom: 0;
+    display: flex;
+    width: 40px;
+    flex-wrap: wrap;
+    z-index: 10;
+    overflow: hidden;
+    button {
+      background: transparent;
+      width: 100%;
+      display: block;
+      padding: 0;
+      border: none;
+      cursor: pointer;
+      color: black;
+      font-size: 11px;
+    }
+  }
+  
+  .challenges-content-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 289px);
+    button {
+      background-color: #0088ff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      font-size: 14px;
+      padding: 8px 0;
+      width: 40%;
+      cursor: pointer;
+      &:hover {
+        background: darken(#0088ff, 10%);
+      }
+    }
+    .action_button_disabled {
+      background: lightgrey;
+      cursor: not-allowed;
+      &:hover {
+        background: darken(lightgrey, 10%);
+      }
+    }
+  }
+  
+  .history-block {
+    button {
+      margin-block-start: 5px;
+      background-color: #0088ff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      font-size: 14px;
+      padding: 8px 0;
+      width: 90%;
+      cursor: pointer;
+      &:hover {
+        background: darken(#0088ff, 10%);
+      }
+    }
+    .action_button_disabled {
+      background: lightgrey;
+      cursor: not-allowed;
+      &:hover {
+        background: darken(lightgrey, 10%);
+      }
+    }
+    .close-button {
+      width: 100%;
+      margin-block-start: 0px;
+      margin-block-end: 17px;
+    }
+  }
+  
+  .login-cover {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    text-align: center;
+    a {
+      margin-left: 8px;
+      color: #007bff;
+    }
+    input, select {
+      width: 100%;
+      padding: 0 20px;
+      height: 38px;
+      height: calc(2.25rem + 2px);
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+    button {
+      background-color: #0088ff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      font-size: 14px;
+      padding: 8px 0;
+      width: 30%;
+      cursor: pointer;
+      &:hover {
+        background: darken(#0088ff, 10%);
+      }
+    }
+  }
+  
+  .signup-cover {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    text-align: center;
+    a {
+      color: #007bff;
+    }
+    input, select {
+      width: 100%;
+      padding: 0 20px;
+      height: 38px;
+      height: calc(2.25rem + 2px);
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+    button {
+      background-color: #0088ff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      font-size: 14px;
+      padding: 8px 0;
+      width: 30%;
+      cursor: pointer;
+      &:hover {
+        background: darken(#0088ff, 10%);
+      }
+    }
+  }
+  
+  .form-error-message {
+    padding-left: 20px;
+    position: absolute;
+    font-size: 14px;
+    color: red;
+    bottom: -40px
+  }
+  
+  .login-title-text {
+    padding: 0 16px;
+    font-size: 24px;
+  }
+  
+  .login-image-cover {
+    margin-bottom: 20px;
+    img {
+      height: 100px;
+      width: auto;
+    }
+  
+  }
+  
+  .breadcrumb {
+    width: 97%;
+    span {
+      text-transform: capitalize;
+    }
+  }
+  
+  .challenges-text-cover {
+    width: 70%;
+  
+  }
+  
+  .status-label {
+    padding: 4px 0;
+    width: 80px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .status-label__passed {
+    color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .status-label__failed {
+    color: red;
+    border-color: red;
+  }
+  
+  .status-label__instructed {
+    color: darkgray;
+    border-color: yellow;
+  }
+  
+  .challenges-selects-cover {
+    display: flex;
+    justify-content: space-between;
+    div {
+      width: 58%;
+    }
+    input {
+      width: 100%;
+    }
+    select {
+      width: 38%;
+      padding-right: 0;
+    }
+  }
+  
+  .profile-dropdown-cover {
+    margin-left: 12px;
+    .btn-group {
+      button {
+        background: white;
+  
+      }
+      img {
+        height: 40px;
+        width: 40px;
+      }
+    }
+    .dropdown-toggle {
+      border: none;
+      padding: 0px;
+      text-align: center;
+      &:before {
+        display: none;
+      }
+    }
+  }
+  
+  .student-details {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  .ready-for-testing{
+    color: green;
+  }
+  
+  .collapse-css-transition {
+    overflow: hidden;
+    transition: height 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .collapse.show {
+    width: 90%;
+  }
+  
+  .card {
+    .card-body {
+      padding: 1px;
+      p {
+        padding: 0px 7px;
+      }
+    }
+  }
+  
+  .update_student_photo {
+    display: flex;
+    >input {
+      display: none;
+    }
+  }
+  
+  .fileUploader {
+    .fileContainer {
+      background: transparent;
+      padding: 0px;
+      margin: 0px;
+    }
+  
+    .fileContainer .chooseFileButton {
+      margin: 3px 0;
+    }
+  }
+  
+  
+  
+  .videoCapture {
+    display: flex;
+    margin: 5px 0;
+    >input {
+      display: none;
+    }
+    >div {
+      width: 30%;
+      margin: 0 auto;
+    }
+    button {
+      width: 100%;
+    }
+    h2 {
+      text-align: center;
+    }
+  }
+  
+  .videoPlayer {
+    margin: 5px auto;
+    width: 80%;
+    >button {
+      width: 100%;
+    }
+  }
+  
+  .watchVideoButton {
+    display: inline-block;
+    // height: 20px;
+    background-color: #0088ff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: yellow;
+    &:hover {
+      background: darken(#0088ff, 10%);
+      color: #fff
+    }
+  }
+  
+  .loader {
+    width: 400px;
+    max-width: 90%;
+    margin: 50px auto;
+    height: 400px;
+    max-height: 90%;
+  }
+  
+  .customModal {
+    width: 100%
+  }
+  
